@@ -29,7 +29,7 @@ function Navbar() {
                 <div className="flex-shrink-0">
                   <a
                     href="#"
-                    className="rounded-full bg-or text-black px-3 py-2 w-32 text-center text-sm font-medium"
+                    className="rounded-full bg-orange-500 text-black px-3 py-2 w-32 text-center text-sm font-medium"
                     aria-current="page"
                   >
                     ZWIGATO
