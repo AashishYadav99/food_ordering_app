@@ -92,12 +92,12 @@ function FoodList() {
           <div>
             <p className="text-md px-5 line-clamp-2">{food.desc}</p>
           </div>
-          <div className="flex justify-between px-5">
+          <div className="flex justify-between px-5 mt-2">
             <p>
               ⭐ <span>{food.rating}</span>
             </p>
             <button
-              className="bg-green-600 p-1 rounded-lg"
+              className="bg-gray-700 p-1 text-white rounded-lg hover:bg-green-600"
               onClick={() => handleClick(food)}
             >
               Add to cart
